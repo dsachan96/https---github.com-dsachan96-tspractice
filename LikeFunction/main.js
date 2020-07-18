@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var Like_1 = require("./Like");
+var p = new Like_1.Like(100, false);
+p.onClick();
+p.onClick();
+p.onClick();
+p.onClick();
+var a = new Like_1.Like(p.LikeCount, true);
+console.log('a');
+a.onClick();
